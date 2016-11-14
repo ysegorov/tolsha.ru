@@ -1,0 +1,33 @@
+<div class="content object">
+    <div class="object-info">
+        <h2 class="object-title">{{ object.title }}</h2>
+        {{ lipsum(n=4, max=50) }}
+    </div>
+    <div class="object-cards">
+        <div class="object-card-wrapper">
+            <div class="object-card" style="background-image:url(/img/medium/{{ prefix }}/{{ object.images.0 }})">
+                {% include "svg/zoom.html" %}
+            </div>
+        </div>
+        <div class="object-cards-nav">
+            {% for img in object.images %}
+            <a class="object-card-link" href="/img/medium/{{ prefix }}/{{ img }}" target="_blank" data-pos="{{ loop.index0 }}" data-large="/img/large/{{ prefix }}/{{ img }}">
+                <div class="object-card-preview text-offscreen" style="background-image:url(/img/small/{{ prefix }}/{{ img }})"></div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="object-carousel">
+        <div class="object-carousel-list">
+            {% set img = object.images|first %}
+            <div class="object-carousel-item">
+                <img class="object-image" src="/img/large/{{ prefix }}/{{ img }}"/>
+            </div>
+        </div>
+        <div class="object-carousel-nav">
+            <button class="object-carousel-prev"><span class="carousel-nav-symbol">❮</span><span class="carousel-nav-help">Ctrl + {% include "svg/left.html" %}</span></button>
+            <button class="object-carousel-next"><span class="carousel-nav-symbol">❯</span><span class="carousel-nav-help">Ctrl + {% include "svg/right.html" %}</span></button>
+            <button class="object-carousel-close" title="Закрыть"><span class="carousel-close-symbol">&times;</span><span class="carousel-close-help">Esc</span></button>
+        </div>
+    </div>
+</div>

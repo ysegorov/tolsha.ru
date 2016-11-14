@@ -1,0 +1,3 @@
+{% set object = config.get(content.code).get(content.slug) %}
+{% set prefix = content.code + '/' + content.slug %}
+{% include "content/object.html" %}

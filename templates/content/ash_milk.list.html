@@ -1,0 +1,13 @@
+    {% set data = config.get(content.code) %}
+    <div class="content">
+        <h2 class="content-title">{{ content.title }}</h2>
+        <div class="cards">
+            {% for key, idx in content.objects %}
+            {% set item = data[key] %}
+            <a class="card" href="/{{ content.code }}/{{ key }}/">
+                <div class="card-image text-offscreen" style="background-image: url(/img/medium/{{ content.code }}/{{ key }}/{{ item.images[idx] }})">{{ item.title }}</div>
+                <figcaption class="card-caption">{{ item.title }}</figcaption>
+            </a>
+            {% endfor %}
+        </div>
+    </div>

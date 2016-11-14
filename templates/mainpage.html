@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    {% set mainpage = True %}
+    {% include "header.html" %}
+    <div class="carousel js-carousel">
+        <ul class="carousel-list js-carousel-list">
+            {% for image, title, url in config.carousel %}
+            <li class="carousel-list-item js-carousel-item {% if loop.first %}current{% endif %}" style="background-image:url({{ image }})" title="{{ title }}"><a class="carousel-list-item-link" href="{{ url }}">&nbsp;</a></li>
+            {% endfor %}
+        </ul>
+        <div class="carousel-prev js-carousel-prev"><span class="carousel-nav-symbol">❮</span></div>
+        <div class="carousel-next js-carousel-next"><span class="carousel-nav-symbol">❯</span></div>
+    </div>
+    {% include "footer.html" %}
+</div>
+{% endblock %}
