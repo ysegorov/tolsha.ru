@@ -5,10 +5,11 @@ url: http://tolsha.ru
 author: Igor Egorov
 
 carousel:
-    - ['/img/large/wip/img_8595.jpg', 'Заготовки', '/in-progress/']
+    - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
     - ['/img/large/ash/all/img_9303.jpg', 'Зольный обжиг', '/ash/']
     - ['/img/large/milk/all/img_9284.jpg', 'Молочный обжиг', '/milk/']
-    - ['/img/large/master/img_9366.jpg', 'Igor Egorov', '/contacts/']
+    - ['/img/large/shuteyny_shtof/img_8680.jpg', 'Сувениры', '/souvenirs/']
+    - ['/img/large/master/img_9366.jpg', 'Игорь Егоров', '/contacts/']
 
 ash:
     title: Зольный обжиг
@@ -79,7 +80,7 @@ ash:
             - img_9252.jpg
             - img_9255.jpg
     krynka:
-        title: Крынка
+        title: Кринка
         images:
             - img_8830.jpg
             - img_8831.jpg
@@ -87,7 +88,7 @@ ash:
             - img_8949.jpg
             - img_8952.jpg
     kukhlya:
-        title: Кюхля
+        title: Кухля
         images:
             - img_9018.jpg
             - img_9020.jpg
@@ -303,11 +304,11 @@ milk:
             - img_8502.jpg
             - img_8503.jpg
     krynka:
-        title: Крынка
+        title: Кринка
         images:
             - img_8451.jpg
     kukhlya:
-        title: Кюхля
+        title: Кухля
         images:
             - img_8396.jpg
             - img_8398.jpg
@@ -355,41 +356,41 @@ milk:
         images:
             - img_8742.jpg
             - img_8747.jpg
-    shuteyny_shtof:
-        title: Шутейные штофы
-        images:
-            - img_8600.jpg
-            - img_8601.jpg
-            - img_8602.jpg
-            - img_8604.jpg
-            - img_8609.jpg
-            - img_8611.jpg
-            - img_8612.jpg
-            - img_8616.jpg
-            - img_8617.jpg
-            - img_8623.jpg
-            - img_8626.jpg
-            - img_8630.jpg
-            - img_8632.jpg
-            - img_8634.jpg
-            - img_8637.jpg
-            - img_8640.jpg
-            - img_8643.jpg
-            - img_8648.jpg
-            - img_8649.jpg
-            - img_8654.jpg
-            - img_8656.jpg
-            - img_8660.jpg
-            - img_8662.jpg
-            - img_8666.jpg
-            - img_8668.jpg
-            - img_8670.jpg
-            - img_8673.jpg
-            - img_8675.jpg
-            - img_8678.jpg
-            - img_8680.jpg
-            - img_8681.jpg
-            - img_8683.jpg
+    # shuteyny_shtof:
+    #     title: Шутейные штофы
+    #     images:
+    #         - img_8600.jpg
+    #         - img_8601.jpg
+    #         - img_8602.jpg
+    #         - img_8604.jpg
+    #         - img_8609.jpg
+    #         - img_8611.jpg
+    #         - img_8612.jpg
+    #         - img_8616.jpg
+    #         - img_8617.jpg
+    #         - img_8623.jpg
+    #         - img_8626.jpg
+    #         - img_8630.jpg
+    #         - img_8632.jpg
+    #         - img_8634.jpg
+    #         - img_8637.jpg
+    #         - img_8640.jpg
+    #         - img_8643.jpg
+    #         - img_8648.jpg
+    #         - img_8649.jpg
+    #         - img_8654.jpg
+    #         - img_8656.jpg
+    #         - img_8660.jpg
+    #         - img_8662.jpg
+    #         - img_8666.jpg
+    #         - img_8668.jpg
+    #         - img_8670.jpg
+    #         - img_8673.jpg
+    #         - img_8675.jpg
+    #         - img_8678.jpg
+    #         - img_8680.jpg
+    #         - img_8681.jpg
+    #         - img_8683.jpg
     tarelka:
         title: Тарелка
         images:
@@ -418,29 +419,122 @@ milk:
             - img_8411.jpg
             - img_8413.jpg
 
-wip:
-    title: Заготовки
+util:
+    title: Утильный обжиг
     images:
-        - img_8563.jpg
-        - img_8564.jpg
-        - img_8568.jpg
-        - img_8573.jpg
-        - img_8575.jpg
-        - img_8581-2.jpg
-        - img_8581.jpg
-        - img_8586.jpg
-        - img_8589.jpg
-        - img_8593.jpg
-        - img_8594.jpg
-        - img_8595.jpg
-        - img_8596.jpg
-        - img_9355.jpg
-        - img_9356.jpg
-        - img_9357.jpg
-        - img_9358.jpg
-        - img_9359.jpg
-        - img_9360.jpg
-        - img_9361.jpg
+        - wip/img_8563.jpg
+        - wip/img_8564.jpg
+        - wip/img_8568.jpg
+        - wip/img_8573.jpg
+        - wip/img_8575.jpg
+        - wip/img_8581-2.jpg
+        - wip/img_8581.jpg
+        - wip/img_8586.jpg
+        - wip/img_8589.jpg
+        - wip/img_8593.jpg
+        - wip/img_8594.jpg
+        - wip/img_8595.jpg
+        - wip/img_8596.jpg
+        - wip/img_9355.jpg
+        - wip/img_9356.jpg
+        - wip/img_9357.jpg
+        - wip/img_9358.jpg
+        - wip/img_9359.jpg
+        - wip/img_9360.jpg
+        - wip/img_9361.jpg
+        - shuteyny_shtof/img_8600.jpg
+        - shuteyny_shtof/img_8601.jpg
+        - shuteyny_shtof/img_8602.jpg
+        - shuteyny_shtof/img_8604.jpg
+        - shuteyny_shtof/img_8609.jpg
+        - shuteyny_shtof/img_8611.jpg
+        - shuteyny_shtof/img_8612.jpg
+        - shuteyny_shtof/img_8616.jpg
+        - shuteyny_shtof/img_8617.jpg
+        - shuteyny_shtof/img_8623.jpg
+        - shuteyny_shtof/img_8626.jpg
+        - shuteyny_shtof/img_8630.jpg
+        - shuteyny_shtof/img_8632.jpg
+        - shuteyny_shtof/img_8634.jpg
+        - shuteyny_shtof/img_8637.jpg
+        - shuteyny_shtof/img_8640.jpg
+        - shuteyny_shtof/img_8643.jpg
+        - shuteyny_shtof/img_8648.jpg
+        - shuteyny_shtof/img_8649.jpg
+        - shuteyny_shtof/img_8654.jpg
+        - shuteyny_shtof/img_8656.jpg
+        - shuteyny_shtof/img_8660.jpg
+        - shuteyny_shtof/img_8662.jpg
+        - shuteyny_shtof/img_8666.jpg
+        - shuteyny_shtof/img_8668.jpg
+        - shuteyny_shtof/img_8670.jpg
+        - shuteyny_shtof/img_8673.jpg
+        - shuteyny_shtof/img_8675.jpg
+        - shuteyny_shtof/img_8678.jpg
+        - shuteyny_shtof/img_8680.jpg
+        - shuteyny_shtof/img_8681.jpg
+        - shuteyny_shtof/img_8683.jpg
+
+souvenirs:
+    title: Сувениры
+    images:
+        - shuteyny_shtof/img_8600.jpg
+        - shuteyny_shtof/img_8601.jpg
+        - shuteyny_shtof/img_8602.jpg
+        - shuteyny_shtof/img_8604.jpg
+        - shuteyny_shtof/img_8609.jpg
+        - shuteyny_shtof/img_8611.jpg
+        - shuteyny_shtof/img_8612.jpg
+        - shuteyny_shtof/img_8616.jpg
+        - shuteyny_shtof/img_8617.jpg
+        - shuteyny_shtof/img_8623.jpg
+        - shuteyny_shtof/img_8626.jpg
+        - shuteyny_shtof/img_8630.jpg
+        - shuteyny_shtof/img_8632.jpg
+        - shuteyny_shtof/img_8634.jpg
+        - shuteyny_shtof/img_8637.jpg
+        - shuteyny_shtof/img_8640.jpg
+        - shuteyny_shtof/img_8643.jpg
+        - shuteyny_shtof/img_8648.jpg
+        - shuteyny_shtof/img_8649.jpg
+        - shuteyny_shtof/img_8654.jpg
+        - shuteyny_shtof/img_8656.jpg
+        - shuteyny_shtof/img_8660.jpg
+        - shuteyny_shtof/img_8662.jpg
+        - shuteyny_shtof/img_8666.jpg
+        - shuteyny_shtof/img_8668.jpg
+        - shuteyny_shtof/img_8670.jpg
+        - shuteyny_shtof/img_8673.jpg
+        - shuteyny_shtof/img_8675.jpg
+        - shuteyny_shtof/img_8678.jpg
+        - shuteyny_shtof/img_8680.jpg
+        - shuteyny_shtof/img_8681.jpg
+        - shuteyny_shtof/img_8683.jpg
+        - milk/koshki/img_8517.jpg
+        - milk/koshki/img_8519.jpg
+        - milk/koshki/img_8525.jpg
+        - milk/koshki/img_8529.jpg
+        - milk/koshki/img_8530.jpg
+        - milk/koshki/img_8531.jpg
+        - milk/koshki/img_8533.jpg
+        - milk/koshki/img_8535.jpg
+        - milk/koshki/img_8536.jpg
+        - milk/koshki/img_8545.jpg
+        - milk/koshki/img_8547.jpg
+        - milk/koshki/img_8550.jpg
+        - milk/koshki/img_8552.jpg
+        - milk/koshki/img_8554.jpg
+        - milk/koshki/img_8555.jpg
+        - ash/ovechka_sova_lev/img_9153.jpg
+        - ash/ovechka_sova_lev/img_9156.jpg
+        - ash/ovechka_sova_lev/img_9158.jpg
+        - ash/ovechka_sova_lev/img_9097.jpg
+        - ash/ovechka_sova_lev/img_9099.jpg
+        - ash/ovechka_sova_lev/img_9101.jpg
+        - ash/ovechka_sova_lev/img_9105.jpg
+        - ash/ovechka_sova_lev/img_9031.jpg
+        - ash/ovechka_sova_lev/img_9034.jpg
+        - ash/ovechka_sova_lev/img_9036.jpg
 
 master:
     title: Мастер
@@ -495,105 +589,90 @@ pages:
       template: content/ash_milk.list.html
 
     - url: /ash/miska/
-      title: Миска
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: miska
       template: content/ash_milk.object.html
 
     - url: /ash/blyudo/
-      title: Блюдо
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: blyudo
       template: content/ash_milk.object.html
 
     - url: /ash/kuvshin/
-      title: Кувшин
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kuvshin
       template: content/ash_milk.object.html
 
     - url: /ash/butyl/
-      title: Бутыль
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: butyl
       template: content/ash_milk.object.html
 
     - url: /ash/krynka/
-      title: Крынка
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: krynka
       template: content/ash_milk.object.html
 
     - url: /ash/gorshok/
-      title: Горшок
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: gorshok
       template: content/ash_milk.object.html
 
     - url: /ash/sosud/
-      title: Сосуд
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: sosud
       template: content/ash_milk.object.html
 
     - url: /ash/ovechka_sova_lev/
-      title: Овечка, сова, лев
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: ovechka_sova_lev
       template: content/ash_milk.object.html
 
     - url: /ash/kumgan/
-      title: Кумган
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kumgan
       template: content/ash_milk.object.html
 
     - url: /ash/vaza/
-      title: Ваза
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: vaza
       template: content/ash_milk.object.html
 
     - url: /ash/yeleynik/
-      title: Елейник
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: yeleynik
       template: content/ash_milk.object.html
 
     - url: /ash/chaynaya_para/
-      title: Чайная пара
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: chaynaya_para
       template: content/ash_milk.object.html
 
     - url: /ash/samovar_chaynik/
-      title: Самовар и чайник
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: samovar_chaynik
       template: content/ash_milk.object.html
 
     - url: /ash/kukhlya/
-      title: Кюхля
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kukhlya
       template: content/ash_milk.object.html
 
     - url: /ash/maslenka/
-      title: Масленка
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: maslenka
@@ -604,9 +683,9 @@ pages:
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       objects:
-        - ['koshki', 14]
         - ['chasha_lebed', 6]
-        - ['shuteyny_shtof', 31]
+        - ['koshki', 14]
+        # - ['shuteyny_shtof', 31]
         - ['flyaga', 0]
         - ['rukomoy', 2]
         - ['kuvshin', 3]
@@ -636,11 +715,11 @@ pages:
       slug: chasha_lebed
       template: content/ash_milk.object.html
 
-    - url: /milk/shuteyny_shtof/
-      modified: 2016-11-07T11:20:00+04:00
-      code: milk
-      slug: shuteyny_shtof
-      template: content/ash_milk.object.html
+    # - url: /milk/shuteyny_shtof/
+    #   modified: 2016-11-07T11:20:00+04:00
+    #   code: milk
+    #   slug: shuteyny_shtof
+    #   template: content/ash_milk.object.html
 
     - url: /milk/flyaga/
       modified: 2016-11-07T11:20:00+04:00
@@ -741,10 +820,15 @@ pages:
           - ['/img/large/master/img_9340.jpg', 'Igor Egorov']
           - ['/img/large/master/img_9366.jpg', 'Igor Egorov']
 
-    - url: /in-progress/
-      title: Заготовки
+    - url: /util/
+      title: Утильный обжиг
       modified: 2016-11-07T11:20:00+04:00
-      template: content/in_progress.html
+      template: content/util.html
+
+    - url: /souvenirs/
+      title: Сувениры
+      modified: 2016-11-07T11:20:00+04:00
+      template: content/souvenirs.html
 
 templates:
     mainpage: mainpage.html

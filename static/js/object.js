@@ -53,6 +53,9 @@
         }
 
         card.style.backgroundImage = 'url(' + href + ')';
+        if (card.scrollIntoView) {
+            card.scrollIntoView(false);
+        }
         pos = parseInt(idx, 10);
         largeImg.src = largeImgUrl;
     }
