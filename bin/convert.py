@@ -87,7 +87,7 @@ def main():
     for p in sources(src):
         p = pathlib.Path(p)
         w, h = dimension(p)
-        for geom, extent, path in (('1280', '', dst_large),
+        for geom, extent, path in (('1600', '', dst_large),
                                    ('500', '-extent 500x500 ', dst_medium),
                                    ('200', '-extent 200x200 ', dst_small)):
             if w < h:
