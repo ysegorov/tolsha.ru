@@ -23,7 +23,7 @@ body {
     height: auto;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #45484b;
 }
 a:hover, a:focus, a:active {
@@ -100,6 +100,7 @@ body.suppressed .content {
     display: inline-block;
     padding: 12px;
     transition: 400ms;
+    text-decoration: none;
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
@@ -478,6 +479,29 @@ body.suppressed .content {
 .master-image-wrapper {
     background-color: rgba(240, 240, 201, .5);
     padding: 12px;
+}
+
+.contacts-info a {
+    color: #708090;
+}
+.footer-info {
+    display: flex;
+    margin: 24px 0;
+}
+.footer-info p {
+    font-size: 14px;
+}
+.footer-info-about {
+    flex: 1;
+}
+.footer-info-contacts {
+    flex: 1;
+    margin-left: 24px;
+}
+.footer-info-header {
+    border-bottom: 1px solid #708090;
+    margin: 18px 0 12px;
+    padding-bottom: 6px;
 }
 
 .legacy-site-nav {

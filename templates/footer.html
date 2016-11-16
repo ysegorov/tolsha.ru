@@ -1,3 +1,15 @@
+    {% if not mainpage and content.url != '/contacts/' %}
+    <div class="footer-info">
+        <div class="footer-info-about">
+            <h4 class="footer-info-header">О мастерской</h4>
+            <p>{{ config.about.replace('\n', '</p><p>') }}</p>
+        </div>
+        <div class="footer-info-contacts">
+            <h4 class="footer-info-header">Контакты</h4>
+            <p>{{ config.contacts.replace('\n', '</p><p>')}}</p>
+        </div>
+    </div>
+    {% endif %}
     <div class="footer">
         <div class="copyright">&copy; {{ now.strftime('%Y') }} Все права защищены.</div>
         <div class="maker">Made with wt</div>
