@@ -9,6 +9,7 @@
     var object = doc.querySelector('.object'),
         cards = object && object.querySelector('.object-cards'),
         card = cards && cards.querySelector('.object-card'),
+        cardZoom = cards && cards.querySelector('.object-card-zoom'),
         nav = cards && cards.querySelector('.object-cards-nav'),
         items = nav && nav.querySelectorAll('.object-card-link') || [],
         largeImg = object && object.querySelector('.object-image'),
@@ -18,10 +19,22 @@
         close = carousel && carousel.querySelector('.object-carousel-close'),
         carouselVisible = false,
         pos = 0,
-        last = items.length - 1;
+        last = items.length - 1,
+        zoomImg;
 
     if (!cards) {
         return ;
+    }
+
+    function throttle(fn, delay) {
+        var lastRun;
+        return function throttled() {
+            var time = (new Date()).getTime();
+            if (!lastRun || (time - lastRun >= delay)) {
+                fn.apply(null, arguments);
+                lastRun = (new Date()).getTime();
+            }
+        }
     }
 
     function setObjectImage(url, el) {
@@ -45,8 +58,7 @@
             target = ev.target,
             link = target.matches(selector) ? target : target.closest(selector),
             href = link && link.href,
-            idx = link && link.dataset.pos,
-            largeImgUrl = link && link.dataset.large;
+            idx = link && link.dataset.pos;
 
         if (!link) {
             return ;
@@ -57,7 +69,7 @@
             card.scrollIntoView(false);
         }
         pos = parseInt(idx, 10);
-        largeImg.src = largeImgUrl;
+        largeImg.src = href.replace('medium', 'large');
     }
 
     function navigate(delta) {
@@ -66,7 +78,7 @@
         pos = pos > last ? 0 : pos < 0 ? last : pos;
         el = items[pos];
         if (el) {
-            setObjectImage(el.dataset.large);
+            setObjectImage(el.href.replace('medium', 'large'));
         }
     }
 
@@ -104,12 +116,59 @@
         }
     }
 
+    function activateCardZoom(evt) {
+        var link = items[pos],
+            href = link.href.replace('medium', 'large');
+
+        cardZoom.style.backgroundImage = 'url(' + href + ')';
+        cardZoom.classList.add('active');
+        if (!zoomImg) {
+            zoomImg = new Image();
+        }
+        if (zoomImg.src !== href) {
+            zoomImg.src = href;
+        }
+    }
+    function deactivateCardZoom(evt) {
+        cardZoom.classList.remove('active');
+    }
+    function panCardZoom(evt) {
+        if (!zoomImg || !zoomImg.width || !zoomImg.height) {
+            return ;
+        }
+        var clH = cardZoom.clientHeight,
+            clW = cardZoom.clientWidth,
+            rect = cardZoom.getBoundingClientRect(),
+            t = root.pageYOffset + rect.top,
+            l = root.pageXOffset + rect.left,
+            h = zoomImg.height,
+            w = zoomImg.width,
+            isV = zoomImg.height > zoomImg.width,
+            ratio = isV ? h / clH : w / clW,
+            x = evt.pageX - l,
+            y = evt.pageY - t,
+            gapX = isV ? parseInt((h - w) / 2 / ratio, 10) : 10,
+            gapY = isV ? 10 : parseInt((w - h) / 2 / ratio, 10),
+            bgX, bgY;
+
+        bgX = x < gapX ? 0 : parseInt((x - gapX) * ratio, 10);
+        bgX = bgX > w - clW ? w - clW : bgX;
+        bgY = y < gapY ? 0 : parseInt((y - gapY) * ratio, 10);
+        bgY = bgY > h - clH ? h - clH : bgY;
+
+        cardZoom.style.backgroundPosition = '-' + bgX + 'px' + ' ' + '-' + bgY + 'px';
+    }
+
     doc.body.addEventListener('keydown', onKeydown, false);
 
     nav.addEventListener('click', loadMediumCard, false);
     largeImg.addEventListener('load', unhideLargeImg, false);
 
     card.addEventListener('click', openCarousel, false);
+    card.addEventListener('mouseenter', activateCardZoom, false);
+    card.addEventListener('mouseleave', deactivateCardZoom, false);
+    card.addEventListener('mousemove', throttle(panCardZoom, 32), false);
+
     close.addEventListener('click', closeCarousel, false);
     next.addEventListener('click', function (ev) { navigate(1); }, false);
     prev.addEventListener('click', function (ev) { navigate(-1); }, false);
