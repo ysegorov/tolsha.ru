@@ -265,12 +265,24 @@ body.suppressed .content {
     flex: 5;
     margin-left: 32px;
 }
+.object-technology,
+.object-recommendations {
+    margin-right: 48px;
+    border-bottom: 1px solid rgba(23, 23, 23, .2);
+    margin-bottom: 18px;
+    padding-bottom: 6px;
+}
+.object-text {
+    font-size: 15px;
+    line-height: 1.25;
+    margin-right: 48px;
+}
 .object-cards {
     flex: 4;
 }
 .object-title {
     margin: 0 0 24px;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
     border-bottom: 1px solid #708090;
 }
 .object-card {

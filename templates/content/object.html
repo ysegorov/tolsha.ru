@@ -2,7 +2,17 @@
 <div class="content object">
     <div class="object-info">
         <h2 class="object-title">{{ object.title }}</h2>
-        {{ lipsum(n=4, max=50) }}
+        {% if text %}
+        {% if text.part1 %}<p>{{ text.part1 }}</p>{% endif %}
+        {% if text.part2 %}
+        <h4 class="object-technology">Технология</h4>
+        <p class="object-text">{{ text.part2|replace('//', '</p><p class="object-text">') }}</p>
+        {% endif %}
+        {% if text.part3 %}
+        <h4 class="object-recommendations">Рекомендации по уходу</h4>
+        <p class="object-text">{{ text.part3|replace('//', '</p><p class="object-text">') }}</p>
+        {% endif %}
+        {% endif %}
     </div>
     <div class="object-cards">
         <div class="object-card-wrapper">

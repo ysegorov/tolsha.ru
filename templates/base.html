@@ -16,8 +16,8 @@
         <!-- Place favicon.ico in the root directory -->
 
         {% block head %}
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/normalize.css?ts={{ now.timestamp()|int }}">
+        <link rel="stylesheet" href="/css/style.css?ts={{ now.timestamp()|int }}">
         {% endblock %}
     </head>
     <body>
@@ -25,9 +25,9 @@
         {% endblock %}
 
         {% block body_js %}
-        <script src="/js/dom4.js"></script>
-        <script src="/js/carousel.js"></script>
-        <script src="/js/object.js"></script>
+        <script src="/js/dom4.js?ts={{ now.timestamp()|int }}"></script>
+        <script src="/js/carousel.js?ts={{ now.timestamp()|int }}"></script>
+        <script src="/js/object.js?ts={{ now.timestamp()|int }}"></script>
         {# <script src="//code.jquery.com/jquery-1.12.0.min.js"></script> #}
         {% endblock %}
 
