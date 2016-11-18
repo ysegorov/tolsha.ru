@@ -173,6 +173,9 @@ body.suppressed .content {
     opacity: 0;
     transition: 1.5s;
 }
+.carousel-list-item:nth-child(5) {
+    background-position: 50% 0;
+}
 .carousel-list-item.current {
     opacity: 1;
     transition: 1.5s;
@@ -204,6 +207,9 @@ body.suppressed .content {
     position: relative;
     margin: 0;
 }
+.content.wide {
+    margin: 0 -24px;
+}
 .content-title {
     margin-bottom: 12px;
     text-align: center;
@@ -217,7 +223,7 @@ body.suppressed .content {
     margin-bottom: 24px;
 }
 .card {
-    flex: 0 0 14.25em;
+    flex: 0 0 14.96em;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -237,7 +243,7 @@ body.suppressed .content {
     background-size: cover;
     opacity: .9;
     transition: 400ms;
-    box-shadow: inset 0 0 2px 2px #eee;
+    box-shadow: inset 0 0 1px 1px #fff;
     /* transform: scale(.9); */
 }
 .card:hover .card-image {
@@ -253,6 +259,7 @@ body.suppressed .content {
     right: 0;
     color: #eee;
     background-color: rgba(23, 23, 23, .8);
+    display: none;
 }
 
 .object {

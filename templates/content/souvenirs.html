@@ -1,4 +1,4 @@
-{% set object = config.souvenirs %}
+{% set object = config.get(content.code).get(content.slug) %}
 {% set prefix = '' %}
-{% set text = object.text %}
+{% set text = content['text'] %}
 {% include "content/object.html" %}

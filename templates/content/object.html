@@ -3,7 +3,7 @@
 <div class="content object">
     <div class="object-info">
         {% if text %}
-        {% if text.part1 %}<p>{{ text.part1 }}</p>{% endif %}
+        {% if text.part1 %}<p class="object-text">{{ text.part1 }}</p>{% endif %}
         {% if text.part2 %}
         <h4 class="object-text-title">Технология</h4>
         <p class="object-text">{{ text.part2|replace('//', '</p><p class="object-text">') }}</p>

@@ -65,9 +65,9 @@
         }
 
         card.style.backgroundImage = 'url(' + href + ')';
-        // if (card.scrollIntoView) {
-        //     card.scrollIntoView(false);
-        // }
+        if (card.scrollIntoView) {
+            card.scrollIntoView(false);
+        }
         pos = parseInt(idx, 10);
         largeImg.src = href.replace('medium', 'large');
     }
@@ -162,6 +162,7 @@
     doc.body.addEventListener('keydown', onKeydown, false);
 
     nav.addEventListener('click', loadMediumCard, false);
+    nav.addEventListener('click', openCarousel, false);
     largeImg.addEventListener('load', unhideLargeImg, false);
 
     card.addEventListener('click', openCarousel, false);
