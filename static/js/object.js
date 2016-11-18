@@ -51,11 +51,11 @@
         largeImg.style.opacity = 1;
     }
 
-    function loadMediumCard(ev) {
-        ev.preventDefault();
+    function loadMediumCard(evt) {
+        evt.preventDefault();
 
         var selector = '.object-card-link',
-            target = ev.target,
+            target = evt.target,
             link = target.matches(selector) ? target : target.closest(selector),
             href = link && link.href,
             idx = link && link.dataset.pos;
@@ -70,6 +70,8 @@
         }
         pos = parseInt(idx, 10);
         largeImg.src = href.replace('medium', 'large');
+
+        openCarousel(evt);
     }
 
     function navigate(delta) {
@@ -162,7 +164,6 @@
     doc.body.addEventListener('keydown', onKeydown, false);
 
     nav.addEventListener('click', loadMediumCard, false);
-    nav.addEventListener('click', openCarousel, false);
     largeImg.addEventListener('load', unhideLargeImg, false);
 
     card.addEventListener('click', openCarousel, false);
