@@ -10,9 +10,9 @@ about: |
     Все работы выполнены  вручную.
     Точный повтор работ, изображенных на фотографиях, не возможен.
 contacts: |
-    <a href="tel:+7916xxxxxxx">+7 916 xxx xx xx</a>
-    <a href="mailto:info@tolha.ru">info@tolsha.ru</a>
-    301049 д.Толша Ясногорский район Тульская область
+    тел.: <a href="tel:+79853001608">+7 985 300 16 08</a> Игорь, Наталья
+    email: <a href="mailto:info@tolha.ru">info@tolsha.ru</a>
+    301049 д.Толша, Ясногорский район, Тульская область
 
 carousel:
     - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
@@ -46,9 +46,9 @@ ash:
             - img_9177.jpg
             - img_9178.jpg
             - img_9180.jpg
-            - img_9182.jpg
-            - img_9183.jpg
-            - img_9186.jpg
+            #- img_9182.jpg
+            #- img_9183.jpg
+            #- img_9186.jpg
             - img_9187.jpg
             - img_9188.jpg
             - img_9189.jpg
@@ -167,6 +167,7 @@ ash:
             - img_9251.jpg
     ovechka_sova_lev:
         title: Овечка, сова, лев
+        skip_text_part3: true
         images:
             - img_9153.jpg
             - img_9156.jpg
@@ -326,6 +327,7 @@ milk:
             - img_8456.jpg
     koshki:
         title: Кошки
+        skip_text_part3: true
         images:
             - img_8517.jpg
             - img_8519.jpg
@@ -486,13 +488,13 @@ util:
         - wip/img_8594.jpg
         - wip/img_8595.jpg
         - wip/img_8596.jpg
-        - wip/img_9355.jpg
-        - wip/img_9356.jpg
-        - wip/img_9357.jpg
-        - wip/img_9358.jpg
-        - wip/img_9359.jpg
-        - wip/img_9360.jpg
-        - wip/img_9361.jpg
+        #- wip/img_9355.jpg
+        #- wip/img_9356.jpg
+        #- wip/img_9357.jpg
+        #- wip/img_9358.jpg
+        #- wip/img_9359.jpg
+        #- wip/img_9360.jpg
+        #- wip/img_9361.jpg
         - shuteyny_shtof/img_8600.jpg
         - shuteyny_shtof/img_8601.jpg
         - shuteyny_shtof/img_8602.jpg
@@ -528,6 +530,22 @@ util:
 
 souvenirs:
     title: Сувениры
+    text:
+        parts:
+            - title: Шутейский штоф
+              text: Глина, ручное формование на гончарном круге, лепка, утильный обжиг.
+            - title: Сувенир петух и курица
+              text: Глина, ручное формование на гончарном круге, лепка.
+            - title: Сувенир кот
+              text: |
+                  Глина, ручное формование на гончарном круге, лощение, молочение, полировка.
+                  Молочный обжиг.
+            - title: Сувенир овечка
+              text: Глина, ручное формование на гончарном круге, зольный обжиг.
+            - title: Сувенир сова
+              text: Глина, ручное формование на гончарном круге, зольный обжиг.
+            - title: Сувенир лев
+              text: Глина, ручное формование на гончарном круге, зольный обжиг.
     images:
         - shuteyny_shtof/img_8600.jpg
         - shuteyny_shtof/img_8601.jpg
@@ -561,13 +579,17 @@ souvenirs:
         - shuteyny_shtof/img_8680.jpg
         - shuteyny_shtof/img_8681.jpg
         - shuteyny_shtof/img_8683.jpg
+        - wip/img_9355.jpg
+        - wip/img_9356.jpg
+        - wip/img_9357.jpg
+        - wip/img_9358.jpg
         - milk/koshki/img_8517.jpg
         - milk/koshki/img_8519.jpg
         - milk/koshki/img_8525.jpg
         - milk/koshki/img_8529.jpg
         - milk/koshki/img_8530.jpg
         - milk/koshki/img_8531.jpg
-        - milk/koshki/img_8533.jpg
+        #- milk/koshki/img_8533.jpg
         - milk/koshki/img_8535.jpg
         - milk/koshki/img_8536.jpg
         - milk/koshki/img_8545.jpg
@@ -609,7 +631,7 @@ feed:
     domain: tolsha.ru
 
 verify:
-    links: true
+    links: false
 
 build:
     output: output/
@@ -623,7 +645,7 @@ pages:
       code: ash
       objects:
         - ['miska', 0]
-        - ['blyudo', 0]
+        - ['blyudo', 39]
         - ['kuvshin', 0]
         - ['butyl', 0]
         - ['krynka', 0]
@@ -866,10 +888,7 @@ pages:
       title: Контакты
       modified: 2016-11-07T11:20:00+04:00
       template: content/contacts.html
-      image: /img/medium/master/img_9366.jpg
-      carousel:
-          - ['/img/large/master/img_9340.jpg', 'Igor Egorov']
-          - ['/img/large/master/img_9366.jpg', 'Igor Egorov']
+      image: /img/igor-natasha.jpg
 
     - url: /util/
       title: Утильный обжиг

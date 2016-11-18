@@ -1,0 +1,7 @@
+<div class="object-cards-nav">
+    {% for img in object.images %}
+    <a class="object-card-link" href="/img/medium/{{ prefix }}{{ img }}" target="_blank" data-pos="{{ loop.index0 }}">
+        <div class="object-card-preview text-offscreen" style="background-image:url(/img/small/{{ prefix }}{{ img }})"></div>
+    </a>
+    {% endfor %}
+</div>

@@ -1,16 +1,22 @@
 {% set prefix = prefix + '/' if prefix %}
+<h2 class="object-title">{{ object.title }}</h2>
 <div class="content object">
     <div class="object-info">
-        <h2 class="object-title">{{ object.title }}</h2>
         {% if text %}
         {% if text.part1 %}<p>{{ text.part1 }}</p>{% endif %}
         {% if text.part2 %}
-        <h4 class="object-technology">Технология</h4>
+        <h4 class="object-text-title">Технология</h4>
         <p class="object-text">{{ text.part2|replace('//', '</p><p class="object-text">') }}</p>
         {% endif %}
-        {% if text.part3 %}
-        <h4 class="object-recommendations">Рекомендации по уходу</h4>
+        {% if not object.skip_text_part3 and text.part3 %}
+        <h4 class="object-text-title">Рекомендации по уходу</h4>
         <p class="object-text">{{ text.part3|replace('//', '</p><p class="object-text">') }}</p>
+        {% endif %}
+        {% if text.parts %}
+        {% for part in text.parts %}
+        <h4 class="object-text-title">{{ part.title }}</h4>
+        <p class="object-text">{{ part.text }}</p>
+        {% endfor %}
         {% endif %}
         {% endif %}
     </div>
@@ -21,13 +27,9 @@
                 {% include "svg/zoom.html" %}
             </div>
         </div>
-        <div class="object-cards-nav">
-            {% for img in object.images %}
-            <a class="object-card-link" href="/img/medium/{{ prefix }}{{ img }}" target="_blank" data-pos="{{ loop.index0 }}">
-                <div class="object-card-preview text-offscreen" style="background-image:url(/img/small/{{ prefix }}{{ img }})"></div>
-            </a>
-            {% endfor %}
-        </div>
+        {% if content.code == 'milk' and content.slug != 'koshki' %}
+        {% include "content/object.nav.html" %}
+        {% endif %}
     </div>
     <div class="object-carousel">
         <div class="object-carousel-list">
@@ -42,3 +44,6 @@
         </div>
     </div>
 </div>
+{% if content.code != 'milk' or content.slug == 'koshki' %}
+{% include "content/object.nav.html" %}
+{% endif %}

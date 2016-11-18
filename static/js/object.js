@@ -10,7 +10,7 @@
         cards = object && object.querySelector('.object-cards'),
         card = cards && cards.querySelector('.object-card'),
         cardZoom = cards && cards.querySelector('.object-card-zoom'),
-        nav = cards && cards.querySelector('.object-cards-nav'),
+        nav = doc.querySelector('.object-cards-nav'),
         items = nav && nav.querySelectorAll('.object-card-link') || [],
         largeImg = object && object.querySelector('.object-image'),
         carousel = object && object.querySelector('.object-carousel'),
@@ -65,9 +65,9 @@
         }
 
         card.style.backgroundImage = 'url(' + href + ')';
-        if (card.scrollIntoView) {
-            card.scrollIntoView(false);
-        }
+        // if (card.scrollIntoView) {
+        //     card.scrollIntoView(false);
+        // }
         pos = parseInt(idx, 10);
         largeImg.src = href.replace('medium', 'large');
     }
