@@ -16,8 +16,8 @@ contacts: |
 
 carousel:
     - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
-    - ['/img/large/ash/all/img_9303.jpg', 'Зольный обжиг', '/ash/']
-    - ['/img/large/milk/all/img_9284.jpg', 'Молочный обжиг', '/milk/']
+    - ['/img/large/ash/all/img_9305.jpg', 'Зольный обжиг', '/ash/']
+    - ['/img/large/milk/all/img_9290.jpg', 'Молочный обжиг', '/milk/']
     - ['/img/large/shuteyny_shtof/img_8680.jpg', 'Сувениры', '/souvenirs/']
     - ['/img/large/master/img_9366-2.jpg', 'Игорь Егоров', '/contacts/']
 
