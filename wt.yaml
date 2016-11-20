@@ -660,91 +660,91 @@ pages:
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: miska
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/blyudo/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: blyudo
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/kuvshin/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kuvshin
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/butyl/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: butyl
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/krynka/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: krynka
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/gorshok/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: gorshok
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/sosud/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: sosud
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/ovechka_sova_lev/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: ovechka_sova_lev
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/kumgan/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kumgan
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/vaza/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: vaza
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/yeleynik/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: yeleynik
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/chaynaya_para/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: chaynaya_para
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/samovar_chaynik/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: samovar_chaynik
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/kukhlya/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: kukhlya
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /ash/maslenka/
       modified: 2016-11-07T11:20:00+04:00
       code: ash
       slug: maslenka
-      template: content/ash_milk.object.html
+      template: content/ash.object.html
 
     - url: /milk/
       title: Молочный обжиг
@@ -775,109 +775,109 @@ pages:
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: koshki
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/chasha_lebed/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: chasha_lebed
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     # - url: /milk/shuteyny_shtof/
     #   modified: 2016-11-07T11:20:00+04:00
     #   code: milk
     #   slug: shuteyny_shtof
-    #   template: content/ash_milk.object.html
+    #   template: content/milk.object.html
 
     - url: /milk/flyaga/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: flyaga
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/rukomoy/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: rukomoy
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/kuvshin/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: kuvshin
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/butyl/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: butyl
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/tarelka/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: tarelka
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/vaza/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: vaza
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/sakharnitsa/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: sakharnitsa
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/chashka/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: chashka
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/chaynik/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: chaynik
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/krynka/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: krynka
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/podstavka_pod_lozhku/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: podstavka_pod_lozhku
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/blinnitsa/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: blinnitsa
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/kukhlya/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: kukhlya
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/kovshik/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: kovshik
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /milk/maslenka/
       modified: 2016-11-07T11:20:00+04:00
       code: milk
       slug: maslenka
-      template: content/ash_milk.object.html
+      template: content/milk.object.html
 
     - url: /contacts/
       title: Контакты

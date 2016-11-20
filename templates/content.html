@@ -1,26 +1,9 @@
 {% extends "base.html" %}
 
-{% block title -%}
-{% filter trim %}
-{% if content.title %}
-{{ content.title }} | {{ config.title }}
-{% else %}
-{% if content.code and not content.slug %}
-{{ config.get(content.code).title }} | {{ config.title }}
-{% endif %}
-{% if content.code and content.slug %}
-{% set group = config.get(content.code) %}
-{{ group.get(content.slug).title }} | {{ group.title }} | {{ config.title }}
-{% endif %}
-{% endif %}
-{% endfilter %}
-{%- endblock %}
-
-
 {% block content %}
-<div class="container">
-    {% include "header.html" %}
-    {% include content.template %}
-    {% include "footer.html" %}
-</div>
+{% set group = config.get(content.code) %}
+{% set object = group.get(content.slug) %}
+{% set prefix = content.code + '/' + content.slug %}
+{% set text = group.text %}
+{% include "content/object.html" %}
 {% endblock %}

@@ -1,3 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}{{ content.title }} | {{ config.title }}{% endblock %}
+
+{% block content %}
     {% set data = config.get(content.code) %}
     <div class="content wide">
         <h2 class="content-title">{{ content.title }}</h2>
@@ -7,8 +12,8 @@
             {% set img = item.images[idx] if content.code == 'souvenirs' else content.code + '/' + key + '/' + item.images[idx] %}
             <a class="card" href="/{{ content.code }}/{{ key }}/">
                 <div class="card-image text-offscreen" style="background-image: url(/img/medium/{{ img }})">{{ item.title }}</div>
-                <figcaption class="card-caption">{{ item.title }}</figcaption>
             </a>
             {% endfor %}
         </div>
     </div>
+{% endblock %}

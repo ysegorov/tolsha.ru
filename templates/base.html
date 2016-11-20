@@ -22,7 +22,12 @@
         {% endblock %}
     </head>
     <body>
-        {% block content %}
+        {% block body %}
+            <div class="container">
+                {% include "header.html" %}
+                {% block content %}{% endblock %}
+                {% include "footer.html" %}
+            </div>
         {% endblock %}
 
         {% block body_js %}

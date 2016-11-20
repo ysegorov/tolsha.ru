@@ -1,4 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.util.title }} | {{ config.title }}{% endblock %}
+
+{% block content %}
 {% set object = config.util %}
 {% set prefix = '' %}
 {% set text = object.text %}
 {% include "content/object.html" %}
+{% endblock %}
