@@ -74,10 +74,10 @@
             parentRect = parent && parent.getBoundingClientRect(),
             parentW = parent && parentRect.width - 200,
             parentH = parent && parentRect.height - 40,
+            href = link.href.replace('medium', 'large'),
+            img,
             ratioH,
             ratioW;
-
-        largeImg.style.backgroundImage = largeImgZoom.style.backgroundImage = 'url(' + link.href.replace('medium', 'large') + ')';
 
         if (width > parentW || height > parentH) {
             ratioH = parentH / height;
@@ -90,8 +90,19 @@
                 height = height * ratioW;
             }
         }
-        largeImg.style.width = largeImgZoom.style.width = Math.floor(width) + 'px';
-        largeImg.style.height = largeImgZoom.style.height = Math.floor(height) + 'px';
+        largeImg.style.opacity = '.2';
+
+        function onload() {
+            largeImgZoom.classList.remove('active');
+            largeImg.style.backgroundImage = largeImgZoom.style.backgroundImage = 'url(' + href + ')';
+            largeImg.style.width = largeImgZoom.style.width = Math.floor(width) + 'px';
+            largeImg.style.height = largeImgZoom.style.height = Math.floor(height) + 'px';
+            largeImg.style.opacity = '1';
+            img.removeEventListener('load', onload);
+        }
+        img = new Image();
+        img.addEventListener('load', onload, false);
+        img.src = href;
     }
 
     function navigate(delta) {
