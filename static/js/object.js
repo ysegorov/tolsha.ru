@@ -13,6 +13,7 @@
         nav = doc.querySelector('.object-cards-nav'),
         items = nav && nav.querySelectorAll('.object-card-link') || [],
         largeImg = object && object.querySelector('.object-image'),
+        largeImgZoom = object && object.querySelector('.object-image-zoom'),
         carousel = object && object.querySelector('.object-carousel'),
         next = carousel && carousel.querySelector('.object-carousel-next'),
         prev = carousel && carousel.querySelector('.object-carousel-prev'),
@@ -37,26 +38,14 @@
         }
     }
 
-    function setObjectImage(url, el) {
-        el = el || largeImg;
-        function setSrc() {
-            el.src = url;
-            el.removeEventListener('transitionend', setSrc);
-        }
-        el.addEventListener('transitionend', setSrc, false);
-        el.style.opacity = 0;
-    }
-
     function unhideLargeImg() {
         largeImg.style.opacity = 1;
     }
 
     function loadMediumCard(evt) {
-        evt.preventDefault();
-
         var selector = '.object-card-link',
-            target = evt.target,
-            link = target.matches(selector) ? target : target.closest(selector),
+            target = evt && evt.target,
+            link = target && (target.matches(selector) ? target : target.closest(selector)),
             href = link && link.href,
             idx = link && link.dataset.pos;
 
@@ -69,9 +58,40 @@
             card.scrollIntoView(false);
         }
         pos = parseInt(idx, 10);
-        largeImg.src = href.replace('medium', 'large');
 
+        if (evt) {
+            evt.preventDefault();
+        }
+        setLargeImg(link);
         openCarousel(evt);
+    }
+
+    function setLargeImg(link) {
+        var width = link && parseInt(link.dataset.largeWidth, 10),
+            height = link && parseInt(link.dataset.largeHeight, 10),
+            isVertical = link && height > width,
+            parent = largeImg.parentElement,
+            parentRect = parent && parent.getBoundingClientRect(),
+            parentW = parent && parentRect.width - 200,
+            parentH = parent && parentRect.height - 40,
+            ratioH,
+            ratioW;
+
+        largeImg.style.backgroundImage = largeImgZoom.style.backgroundImage = 'url(' + link.href.replace('medium', 'large') + ')';
+
+        if (width > parentW || height > parentH) {
+            ratioH = parentH / height;
+            ratioW = parentW / width;
+            if (ratioH < ratioW) {
+                height = parentH;
+                width = width * ratioH;
+            } else {
+                width = parentW;
+                height = height * ratioW;
+            }
+        }
+        largeImg.style.width = largeImgZoom.style.width = Math.floor(width) + 'px';
+        largeImg.style.height = largeImgZoom.style.height = Math.floor(height) + 'px';
     }
 
     function navigate(delta) {
@@ -80,7 +100,7 @@
         pos = pos > last ? 0 : pos < 0 ? last : pos;
         el = items[pos];
         if (el) {
-            setObjectImage(el.href.replace('medium', 'large'));
+            setLargeImg(el);
         }
     }
 
@@ -119,11 +139,12 @@
     }
 
     function activateCardZoom(evt) {
-        var link = items[pos],
+        var zoom = evt.target.querySelector('.js-zoom'),
+            link = items[pos],
             href = link.href.replace('medium', 'large');
 
-        cardZoom.style.backgroundImage = 'url(' + href + ')';
-        cardZoom.classList.add('active');
+        zoom.style.backgroundImage = 'url(' + href + ')';
+        zoom.classList.add('active');
         if (!zoomImg) {
             zoomImg = new Image();
         }
@@ -132,15 +153,17 @@
         }
     }
     function deactivateCardZoom(evt) {
-        cardZoom.classList.remove('active');
+        var zoom = evt.target.querySelector('.js-zoom');
+        zoom.classList.remove('active');
     }
     function panCardZoom(evt) {
         if (!zoomImg || !zoomImg.width || !zoomImg.height) {
             return ;
         }
-        var clH = cardZoom.clientHeight,
-            clW = cardZoom.clientWidth,
-            rect = cardZoom.getBoundingClientRect(),
+        var zoom = evt.currentTarget.querySelector('.js-zoom'),
+            clH = zoom.clientHeight,
+            clW = zoom.clientWidth,
+            rect = zoom.getBoundingClientRect(),
             t = root.pageYOffset + rect.top,
             l = root.pageXOffset + rect.left,
             h = zoomImg.height,
@@ -158,22 +181,28 @@
         bgY = y < gapY ? 0 : parseInt((y - gapY) * ratio, 10);
         bgY = bgY > h - clH ? h - clH : bgY;
 
-        cardZoom.style.backgroundPosition = '-' + bgX + 'px' + ' ' + '-' + bgY + 'px';
+        zoom.style.backgroundPosition = '-' + bgX + 'px' + ' ' + '-' + bgY + 'px';
     }
 
     doc.body.addEventListener('keydown', onKeydown, false);
 
     nav.addEventListener('click', loadMediumCard, false);
-    largeImg.addEventListener('load', unhideLargeImg, false);
 
     card.addEventListener('click', openCarousel, false);
     card.addEventListener('mouseenter', activateCardZoom, false);
     card.addEventListener('mouseleave', deactivateCardZoom, false);
     card.addEventListener('mousemove', throttle(panCardZoom, 32), false);
+    largeImg.addEventListener('mouseenter', activateCardZoom, false);
+    largeImg.addEventListener('mouseleave', deactivateCardZoom, false);
+    largeImg.addEventListener('mousemove', throttle(panCardZoom, 32), false);
 
     close.addEventListener('click', closeCarousel, false);
     next.addEventListener('click', function (ev) { navigate(1); }, false);
     prev.addEventListener('click', function (ev) { navigate(-1); }, false);
+
+    root.addEventListener('resize', throttle(function () {setLargeImg(items[pos]);}, 100), false);
+
+    setLargeImg(items[0]);
 
 
 }).call(this);

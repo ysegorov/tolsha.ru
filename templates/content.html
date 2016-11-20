@@ -3,7 +3,7 @@
 {% block content %}
 {% set group = config.get(content.code) %}
 {% set object = group.get(content.slug) %}
-{% set prefix = content.code + '/' + content.slug %}
+{% set prefix = content.code + '/' + content.slug + '/' %}
 {% set text = group.text %}
 {% include "content/object.html" %}
 {% endblock %}
