@@ -12,7 +12,6 @@ logger = logging.getLogger('wt.app')
 
 @functions.add
 def image_dimensions(*parts):
-    logger.debug(parts)
     filename = os.path.join(*parts)
     stat, info = subprocess.getstatusoutput('identify "%s"' % filename)
     if stat == 0:
