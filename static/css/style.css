@@ -101,6 +101,7 @@ body.suppressed .content {
     padding: 12px;
     transition: 400ms;
     text-decoration: none;
+    font-weight: 700;
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
@@ -113,6 +114,7 @@ body.suppressed .content {
     flex: 1;
     position: relative;
     margin: 24px 0;
+    min-height: 600px;
 }
 .carousel:hover .carousel-next,
 .carousel:hover .carousel-prev {
@@ -534,6 +536,10 @@ body.suppressed .content {
     border-bottom: 1px solid #708090;
     margin: 18px 0 12px;
     padding-bottom: 6px;
+}
+.photographer-info {
+    border-top: 1px solid rgba(112, 128, 144, .5);
+    padding-top: 12px;
 }
 
 .legacy-site-nav {

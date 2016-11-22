@@ -4,21 +4,22 @@ subtitle: Subtitle
 url: http://tolsha.ru
 author: Igor Egorov
 about: |
-    Игорь и Наталья открыли свою мастерскую в д. Толша Ясногорского района Тульской области в 2013 году.
-    Их керамические изделия находятся в музеях г. Скопин Рязанской области и г. Богородск Нижегородской области.
-    Выполняют работы на заказ для частных лиц, ресторанов и всех желающих.
-    Все работы выполнены  вручную.
-    Точный повтор работ, изображенных на фотографиях, не возможен.
+    Гончарная мастерская в д. Толша Ясногорского района Тульской области была открыта в 2013 году.
+    Наши керамические изделия находятся в музеях г. Скопин Рязанской области и г. Богородск Нижегородской области.
+    Мы выполняем работы на заказ для частных лиц, ресторанов и всех желающих.
+    Все работы выполнены вручную.
+    Точный повтор работ, изображенных на фотографиях, невозможен.
 contacts: |
     тел.: <a href="tel:+79853001608">+7 985 300 16 08</a> Игорь, Наталья
     email: <a href="mailto:info@tolha.ru">info@tolsha.ru</a>
     301049 д.Толша, Ясногорский район, Тульская область
+photograph: Александра Крутько <a href="tel:+79031512962)">+7 903 151 29 62</a>
 
 carousel:
     - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
-    - ['/img/large/ash/all/img_9305.jpg', 'Зольный обжиг', '/ash/']
+    - ['/img/large/ash/all/img_9311.jpg', 'Зольный обжиг', '/ash/']
     - ['/img/large/milk/all/img_9290.jpg', 'Молочный обжиг', '/milk/']
-    - ['/img/large/shuteyny_shtof/img_8680.jpg', 'Сувениры', '/souvenirs/']
+    - ['/img/large/shuteyny_shtof/img_8683.jpg', 'Сувениры', '/souvenirs/']
     - ['/img/large/master/img_9366-2.jpg', 'Игорь Егоров', '/contacts/']
 
 ash:
@@ -329,20 +330,20 @@ milk:
         title: Кошки
         skip_text_part3: true
         images:
-            - img_8517.jpg
+            #- img_8517.jpg
             - img_8519.jpg
             - img_8525.jpg
             - img_8529.jpg
-            - img_8530.jpg
-            - img_8531.jpg
-            - img_8533.jpg
+            #- img_8530.jpg
+            #- img_8531.jpg
+            #- img_8533.jpg
             - img_8535.jpg
             - img_8536.jpg
             - img_8545.jpg
             - img_8547.jpg
             - img_8550.jpg
-            - img_8552.jpg
-            - img_8554.jpg
+            #- img_8552.jpg
+            #- img_8554.jpg
             - img_8555.jpg
     kovshik:
         title: Ковшик
@@ -495,20 +496,20 @@ util:
         #- wip/img_9359.jpg
         #- wip/img_9360.jpg
         #- wip/img_9361.jpg
-        - shuteyny_shtof/img_8600.jpg
-        - shuteyny_shtof/img_8601.jpg
+        #- shuteyny_shtof/img_8600.jpg
+        #- shuteyny_shtof/img_8601.jpg
         - shuteyny_shtof/img_8602.jpg
+        - shuteyny_shtof/img_8632.jpg
         - shuteyny_shtof/img_8604.jpg
         - shuteyny_shtof/img_8609.jpg
         - shuteyny_shtof/img_8611.jpg
         - shuteyny_shtof/img_8612.jpg
         - shuteyny_shtof/img_8616.jpg
-        - shuteyny_shtof/img_8617.jpg
+        #- shuteyny_shtof/img_8617.jpg
         - shuteyny_shtof/img_8623.jpg
         - shuteyny_shtof/img_8626.jpg
         - shuteyny_shtof/img_8630.jpg
-        - shuteyny_shtof/img_8632.jpg
-        - shuteyny_shtof/img_8634.jpg
+        #- shuteyny_shtof/img_8634.jpg
         - shuteyny_shtof/img_8637.jpg
         - shuteyny_shtof/img_8640.jpg
         - shuteyny_shtof/img_8643.jpg
@@ -516,16 +517,16 @@ util:
         - shuteyny_shtof/img_8649.jpg
         - shuteyny_shtof/img_8654.jpg
         - shuteyny_shtof/img_8656.jpg
-        - shuteyny_shtof/img_8660.jpg
         - shuteyny_shtof/img_8662.jpg
+        - shuteyny_shtof/img_8660.jpg
         - shuteyny_shtof/img_8666.jpg
         - shuteyny_shtof/img_8668.jpg
         - shuteyny_shtof/img_8670.jpg
         - shuteyny_shtof/img_8673.jpg
         - shuteyny_shtof/img_8675.jpg
-        - shuteyny_shtof/img_8678.jpg
-        - shuteyny_shtof/img_8680.jpg
-        - shuteyny_shtof/img_8681.jpg
+        #- shuteyny_shtof/img_8678.jpg
+        #- shuteyny_shtof/img_8680.jpg
+        #- shuteyny_shtof/img_8681.jpg
         - shuteyny_shtof/img_8683.jpg
 
 souvenirs:
@@ -533,20 +534,20 @@ souvenirs:
     shuteyny_shtof:
         title: Шутейские штофы
         images:
-            - shuteyny_shtof/img_8600.jpg
-            - shuteyny_shtof/img_8601.jpg
+            #- shuteyny_shtof/img_8600.jpg
+            #- shuteyny_shtof/img_8601.jpg
             - shuteyny_shtof/img_8602.jpg
+            - shuteyny_shtof/img_8632.jpg
             - shuteyny_shtof/img_8604.jpg
             - shuteyny_shtof/img_8609.jpg
             - shuteyny_shtof/img_8611.jpg
             - shuteyny_shtof/img_8612.jpg
             - shuteyny_shtof/img_8616.jpg
-            - shuteyny_shtof/img_8617.jpg
+            #- shuteyny_shtof/img_8617.jpg
             - shuteyny_shtof/img_8623.jpg
             - shuteyny_shtof/img_8626.jpg
             - shuteyny_shtof/img_8630.jpg
-            - shuteyny_shtof/img_8632.jpg
-            - shuteyny_shtof/img_8634.jpg
+            #- shuteyny_shtof/img_8634.jpg
             - shuteyny_shtof/img_8637.jpg
             - shuteyny_shtof/img_8640.jpg
             - shuteyny_shtof/img_8643.jpg
@@ -554,41 +555,41 @@ souvenirs:
             - shuteyny_shtof/img_8649.jpg
             - shuteyny_shtof/img_8654.jpg
             - shuteyny_shtof/img_8656.jpg
-            - shuteyny_shtof/img_8660.jpg
             - shuteyny_shtof/img_8662.jpg
+            - shuteyny_shtof/img_8660.jpg
             - shuteyny_shtof/img_8666.jpg
             - shuteyny_shtof/img_8668.jpg
             - shuteyny_shtof/img_8670.jpg
             - shuteyny_shtof/img_8673.jpg
             - shuteyny_shtof/img_8675.jpg
-            - shuteyny_shtof/img_8678.jpg
-            - shuteyny_shtof/img_8680.jpg
-            - shuteyny_shtof/img_8681.jpg
+            #- shuteyny_shtof/img_8678.jpg
+            #- shuteyny_shtof/img_8680.jpg
+            #- shuteyny_shtof/img_8681.jpg
             - shuteyny_shtof/img_8683.jpg
     petukh_kuritsa:
         title: Петух и курица
         images:
             - wip/img_9355.jpg
-            - wip/img_9356.jpg
             - wip/img_9357.jpg
+            - wip/img_9356.jpg
             - wip/img_9358.jpg
     koshki:
         title: Кошки
         images:
-            - milk/koshki/img_8517.jpg
+            #- milk/koshki/img_8517.jpg
             - milk/koshki/img_8519.jpg
             - milk/koshki/img_8525.jpg
             - milk/koshki/img_8529.jpg
-            - milk/koshki/img_8530.jpg
-            - milk/koshki/img_8531.jpg
+            #- milk/koshki/img_8530.jpg
+            #- milk/koshki/img_8531.jpg
             #- milk/koshki/img_8533.jpg
             - milk/koshki/img_8535.jpg
             - milk/koshki/img_8536.jpg
             - milk/koshki/img_8545.jpg
             - milk/koshki/img_8547.jpg
             - milk/koshki/img_8550.jpg
-            - milk/koshki/img_8552.jpg
-            - milk/koshki/img_8554.jpg
+            #- milk/koshki/img_8552.jpg
+            #- milk/koshki/img_8554.jpg
             - milk/koshki/img_8555.jpg
     ovechka_sova_lev:
         title: Овечка, сова и лев
@@ -752,7 +753,7 @@ pages:
       code: milk
       objects:
         - ['chasha_lebed', 6]
-        - ['koshki', 13]
+        - ['koshki', 8]
         # - ['shuteyny_shtof', 31]
         - ['flyaga', 0]
         - ['rukomoy', 2]
@@ -897,9 +898,9 @@ pages:
       template: content/ash_milk.list.html
       code: souvenirs
       objects:
-        - ['shuteyny_shtof', 31]
+        - ['shuteyny_shtof', 24]
         - ['petukh_kuritsa', 0]
-        - ['koshki', 13]
+        - ['koshki', 8]
         - ['ovechka_sova_lev', 0]
 
     - url: /souvenirs/koshki/
