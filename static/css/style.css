@@ -531,6 +531,7 @@ body.suppressed .content {
 .footer-info-contacts {
     flex: 2;
     margin-left: 24px;
+    position: relative;
 }
 .footer-info-header {
     border-bottom: 1px solid #708090;
@@ -540,6 +541,10 @@ body.suppressed .content {
 .photographer-info {
     border-top: 1px solid rgba(112, 128, 144, .5);
     padding-top: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .legacy-site-nav {
