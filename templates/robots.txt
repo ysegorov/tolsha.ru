@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: {{ config.url }}/sitemap.xml

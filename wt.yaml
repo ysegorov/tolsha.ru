@@ -623,17 +623,6 @@ master:
         - img_9366.jpg
         - img_9369.jpg
 
-feed:
-    domain: tolsha.ru
-
-verify:
-    links: false
-
-build:
-    output: output/
-    static: true
-    feed: false
-
 pages:
     - url: /ash/
       title: Зольный обжиг
@@ -935,6 +924,25 @@ pages:
       text:
         part1: Глина, ручное формование на гончарном круге, зольный обжиг.
 
+    - url: /sitemap.xml
+      template: sitemap.xml
+      exclude_from_sitemap: true
+
+    - url: /robots.txt
+      template: robots.txt
+      exclude_from_sitemap: true
+
+feed:
+    domain: tolsha.ru
+
+verify:
+    links: false
+
+build:
+    output: output/
+    static: true
+    feed: false
+
 templates:
     mainpage: mainpage.html
     post: content.html
@@ -944,15 +952,16 @@ templates:
 directories:
     static: static/
 
-jinja_extensions:
-    - jinja2.ext.i18n
-    - jinja2.ext.do
-    - jinja2.ext.loopcontrols
-    - jinja2.ext.with_
-    - jinja2.ext.autoescape
+jinja:
+    extensions:
+      - jinja2.ext.i18n
+      - jinja2.ext.do
+      - jinja2.ext.loopcontrols
+      - jinja2.ext.with_
+      - jinja2.ext.autoescape
 
-markdown_extensions:
-    - markdown.extensions.extra
-    - markdown.extensions.toc
+    markdown_extensions:
+        - markdown.extensions.extra
+        - markdown.extensions.toc
 
 ...
