@@ -90,7 +90,7 @@ body.suppressed .content {
     margin: 0;
 }
 .site-nav-list-item:last-of-type {
-    flex: 1;
+    flex: 1 0 auto;
     text-align: right;
 }
 .site-nav-list-item.selected .site-nav-link {
@@ -111,7 +111,7 @@ body.suppressed .content {
 }
 
 .carousel {
-    flex: 1;
+    flex: 1 1 100%;
     position: relative;
     margin: 24px 0;
     min-height: 600px;
@@ -195,7 +195,7 @@ body.suppressed .content {
     border-top: 1px solid #708090;
 }
 .copyright {
-    flex: 1;
+    flex: 1 0 auto;
 }
 .maker {
     opacity: .2;
@@ -205,7 +205,7 @@ body.suppressed .content {
     color: transparent;
 }
 .content {
-    flex: 1;
+    flex: 1 0 auto;
     position: relative;
     margin: 0;
 }
@@ -370,7 +370,7 @@ body.suppressed .content {
     opacity: 1;
 }
 .object-carousel-list {
-    flex: 1;
+    flex: 1 0 auto;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -404,17 +404,17 @@ body.suppressed .content {
 .object-carousel-prev,
 .object-carousel-next {
     position: absolute;
-    width: 100px;
-    top: 0;
-    bottom: 0;
+    width: 150px;
+    top: 45%;
+    /* bottom: 0; */
     z-index: 3;
     cursor: pointer;
     color: #eee;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
     font-size: 48px;;
     transition: 400ms;
     border: none;
@@ -430,6 +430,12 @@ body.suppressed .content {
 .object-carousel-prev:hover,
 .object-carousel-next:hover {
     color: #fff;
+}
+.object-carousel-prev .carousel-nav-symbol,
+.object-carousel-next .carousel-nav-symbol,
+.object-carousel-prev .carousel-nav-help,
+.object-carousel-next .carousel-nav-help {
+    display: block;
 }
 .object-carousel-close {
     position: absolute;
@@ -478,8 +484,9 @@ body.suppressed .content {
 .svg-arrow-right {
     display: inline-block;
     width: 16px;
+    height: 16px;
     fill: currentColor;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 .object-card-wrapper:hover .svg-zoom {
     fill: rgba(255, 255, 255, .5);
