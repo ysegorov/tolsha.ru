@@ -63,7 +63,7 @@ body.suppressed .content {
 }
 
 .container {
-    width: 960px;
+    width: 1000px;
     margin: 12px auto;
     padding: 12px 24px;
     background-color: #fffff0;
@@ -78,7 +78,7 @@ body.suppressed .content {
     /* text-align: center; */
 }
 .site-nav {
-    /* margin: 12px; */
+    margin: 0 -20px;
     padding: 12px 0;
     border-top: 1px solid #708090;
     border-bottom: 1px solid #708090;
@@ -225,7 +225,7 @@ body.suppressed .content {
     margin-bottom: 24px;
 }
 .card {
-    flex: 0 0 14.96em;
+    flex: 0 0 248px;
     margin: 0;
     padding: 0;
     background-color: #fff;

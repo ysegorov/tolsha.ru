@@ -529,6 +529,9 @@ util:
         #- shuteyny_shtof/img_8681.jpg
         - shuteyny_shtof/img_8683.jpg
 
+reconstructive:
+    title: Восстановительный обжиг
+
 souvenirs:
     title: Сувениры
     shuteyny_shtof:
@@ -868,6 +871,11 @@ pages:
       code: milk
       slug: maslenka
       template: content/milk.object.html
+
+    - url: /reconstructive/
+      title: Восcтановительный обжиг
+      modified: 2017-02-13T22:50:00+04:00
+      template: content/reconstructive.html
 
     - url: /contacts/
       title: Контакты
