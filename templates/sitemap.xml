@@ -4,7 +4,7 @@
     {%- if not page.exclude_from_sitemap -%}
     <url>
         <loc>{{ config.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.modified.isoformat() }}</lastmod>
+        <lastmod>{{ page.modified.strftime('%Y-%m-%d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
