@@ -960,6 +960,8 @@ templates:
 directories:
     static: static/
 
+ga_code: UA-91957707-1
+
 jinja:
     extensions:
       - jinja2.ext.i18n
