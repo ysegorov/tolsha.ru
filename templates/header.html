@@ -1,5 +1,8 @@
     <div class="header">
-        <h1 class="site-header">{{ config.title }}</h1>
+        <div class="header-wrapper">
+            <h1 class="site-header">{{ config.title }}</h1>
+            <p class="site-subheader">{{ config.subtitle }}</p>
+        </div>
         <nav class="site-nav">
             <ul class="site-nav-list">
                 <li class="site-nav-list-item {% if mainpage %}selected{% endif %}"><a class="site-nav-link" href="/">Начало</a></li>

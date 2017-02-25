@@ -72,10 +72,27 @@ body.suppressed .content {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, .5) 0 0 4px 0;
 }
-.site-header {
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 12px 0 24px;
+}
+.site-header {
+    margin: 0;
+    flex: 1 0 auto;
+    text-align: left;
+    /* margin: 12px 0 24px; */
     /* text-transform: uppercase; */
     /* text-align: center; */
+}
+.site-subheader {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: .8;
+    position: relative;
+    top: 3px;
 }
 .site-nav {
     margin: 0 -20px;
@@ -512,6 +529,16 @@ body.suppressed .content {
 }
 .address {
     font-size: 14px;
+}
+.address img,
+.footer-info-contacts img {
+    vertical-align: middle;
+}
+.address .phone,
+.address .email,
+.footer-info-contacts .phone,
+.footer-info-contacts .email {
+    opacity: .7;
 }
 .master-image {
     max-width: 100%;
