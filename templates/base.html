@@ -18,8 +18,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic" rel="stylesheet">
         {% block head %}
-        <link rel="stylesheet" href="/css/normalize.css?ts={{ now.timestamp()|int }}">
-        <link rel="stylesheet" href="/css/style.css?ts={{ now.timestamp()|int }}">
+        <link rel="stylesheet" href="/css/normalize{{ is_prod and '.min' or '' }}.css?ts={{ now.timestamp()|int }}">
+        <link rel="stylesheet" href="/css/style{{ is_prod and '.min' or '' }}.css?ts={{ now.timestamp()|int }}">
         {% endblock %}
     </head>
     <body>
@@ -33,8 +33,12 @@
 
         {% block body_js %}
         <script src="/js/dom4.js?ts={{ now.timestamp()|int }}"></script>
+        {% if is_prod %}
+        <script src="/js/bundle.min.js?ts={{ now.timestamp()|int }}"></script>
+        {% else %}
         <script src="/js/carousel.js?ts={{ now.timestamp()|int }}"></script>
         <script src="/js/object.js?ts={{ now.timestamp()|int }}"></script>
+        {% endif %}
         {# <script src="//code.jquery.com/jquery-1.12.0.min.js"></script> #}
         {% endblock %}
 
