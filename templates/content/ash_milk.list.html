@@ -3,7 +3,7 @@
 {% block title %}{{ content.title }} | {{ config.title }}{% endblock %}
 
 {% block content %}
-    {% set data = config.get(content.code) %}
+    {% set data = config|attr(content.code) %}
     <div class="content wide">
         <h2 class="content-title">{{ content.title }}</h2>
         <div class="cards">

@@ -1,0 +1,226 @@
+---
+title: Зольный обжиг
+text:
+    part1: Глина, ручное формование на гончарном круге, зольная глазурь.
+    part2: |
+        Зольная глазурь - одна из первых, используемых гончарами.//
+        Еще в 15 в. до н.э. китайцы заметили, что зола во время обжига,
+        неравномерно оседая на керамике, плавится и превращается в глазурь.//
+        Позднее они научились готовить глазури на основе золы и покрывать ими керамику.//
+        Цвет зольной глазури зависит от используемой древесины, от породы дерева, почвы и
+        местности где оно произростало, от различного соотношения химических элементов.
+    part3: |
+        Можно ставить в микроволновую печь, духовку, на электроплиту.//
+        Можно мыть в посудомоечной машине.
+blyudo:
+    title: Блюдо
+    images:
+        - img_8840.jpg
+        #- img_8845.jpg
+        - img_8848.jpg
+        #- img_8850.jpg
+        - img_9175.jpg
+        - img_9177.jpg
+        - img_9178.jpg
+        - img_9180.jpg
+        #- img_9182.jpg
+        #- img_9183.jpg
+        #- img_9186.jpg
+        - img_9187.jpg
+        #- img_9188.jpg
+        #- img_9189.jpg
+        - img_9194.jpg
+        - img_9197.jpg
+        - img_9199.jpg
+        - img_9200.jpg
+        - img_9202.jpg
+        - img_9204.jpg
+        - img_9205.jpg
+        #- img_9207.jpg
+        - img_9208.jpg
+        - img_9210.jpg
+        - img_9212.jpg
+        - img_9213.jpg
+        - img_9214.jpg
+        #- img_9215.jpg
+        #- img_9217.jpg
+        - img_9219.jpg
+        - img_9221.jpg
+        - img_9223.jpg
+        - img_9224.jpg
+        - img_9240.jpg
+        - img_9242.jpg
+        - img_9325.jpg
+        - img_9326.jpg
+        - img_9328.jpg
+        #- img_9330.jpg
+        - img_9333.jpg
+        #- img_9335.jpg
+        - img_9336.jpg
+        - img_9337.jpg
+butyl:
+    title: Бутыль
+    images:
+        - img_9063.jpg
+        - img_9065.jpg
+chaynaya_para:
+    title: Чайная пара
+    images:
+        - img_9261.jpg
+        - img_9266.jpg
+        - img_9267.jpg
+        - img_9268.jpg
+        - img_9269.jpg
+        - img_9274.jpg
+        - img_9275.jpg
+gorshok:
+    title: Горшок
+    images:
+        - img_9252.jpg
+        - img_9255.jpg
+krynka:
+    title: Кринка
+    images:
+        - img_8830.jpg
+        - img_8831.jpg
+        - img_8946.jpg
+        - img_8949.jpg
+        - img_8952.jpg
+kukhlya:
+    title: Кухля
+    images:
+        - img_9018.jpg
+        - img_9020.jpg
+        - img_9024.jpg
+        - img_9027.jpg
+kumgan:
+    title: Кумган
+    images:
+        - img_8940.jpg
+        - img_8942.jpg
+        - img_8943.jpg
+        - img_8977.jpg
+        - img_8979.jpg
+        - img_8982.jpg
+        - img_9076.jpg
+        - img_9078.jpg
+        - img_9085.jpg
+        - img_9086.jpg
+        - img_9090.jpg
+        - img_9258.jpg
+        - img_9260.jpg
+kuvshin:
+    title: Кувшин
+    images:
+        - img_8984.jpg
+        - img_8985.jpg
+        - img_8987.jpg
+        - img_8989.jpg
+        - img_9079.jpg
+        - img_9083.jpg
+        - img_9084.jpg
+        - img_9091.jpg
+        - img_9094.jpg
+maslenka:
+    title: Масленка
+    images:
+        - img_8834.jpg
+        - img_8835.jpg
+        - img_8838.jpg
+        - img_9117.jpg
+        - img_9120.jpg
+        - img_9122.jpg
+        - img_9123.jpg
+miska:
+    title: Миска
+    images:
+        - img_9229.jpg
+        - img_9231.jpg
+        - img_9233.jpg
+        - img_9243.jpg
+        - img_9244.jpg
+        - img_9247.jpg
+        - img_9248.jpg
+        - img_9251.jpg
+ovechka_sova_lev:
+    title: Овечка, сова, лев
+    skip_text_part3: true
+    images:
+        - img_9153.jpg
+        - img_9156.jpg
+        - img_9158.jpg
+        - img_9097.jpg
+        - img_9099.jpg
+        - img_9101.jpg
+        - img_9105.jpg
+        - img_9031.jpg
+        - img_9034.jpg
+        - img_9036.jpg
+samovar_chaynik:
+    title: Самовар, чайник
+    images:
+        - img_9125.jpg
+        - img_9127.jpg
+        - img_9131.jpg
+        - img_9132.jpg
+        - img_9134.jpg
+        - img_9137.jpg
+        - img_9140.jpg
+        - img_9141.jpg
+        - img_9143.jpg
+        - img_9161.jpg
+        - img_9166.jpg
+        - img_9171.jpg
+sosud:
+    title: Сосуд
+    images:
+        - img_8994.jpg
+        - img_8997.jpg
+        - img_9000.jpg
+        - img_9002.jpg
+        - img_9004.jpg
+        - img_9009.jpg
+        - img_9013.jpg
+        - img_9016.jpg
+        - img_9039.jpg
+        - img_9044.jpg
+        - img_9047.jpg
+        - img_9048.jpg
+        - img_9050.jpg
+        - img_9053.jpg
+        - img_9055.jpg
+vaza:
+    title: Ваза
+    images:
+        - img_8932.jpg
+        - img_8937.jpg
+        - img_8938.jpg
+        - img_8954.jpg
+        - img_8958.jpg
+        - img_8961.jpg
+        - img_8963.jpg
+        - img_8964.jpg
+        - img_8966.jpg
+        - img_8967.jpg
+        - img_9059.jpg
+        - img_9061.jpg
+        - img_9069.jpg
+        - img_9072.jpg
+        - img_9110.jpg
+        - img_9111.jpg
+        - img_9112.jpg
+        - img_9113.jpg
+        - img_9144.jpg
+        - img_9145.jpg
+        - img_9147.jpg
+        - img_9151.jpg
+yeleynik:
+    title: Елейник
+    images:
+        - img_8969.jpg
+        - img_8972.jpg
+        - img_9277.jpg
+        - img_9278.jpg
+        - img_9280.jpg
+        - img_9281.jpg
+...

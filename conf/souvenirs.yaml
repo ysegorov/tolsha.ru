@@ -1,0 +1,76 @@
+---
+title: Сувениры
+shuteyny_shtof:
+    title: Шутейские штофы
+    images:
+        #- shuteyny_shtof/img_8600.jpg
+        #- shuteyny_shtof/img_8601.jpg
+        - shuteyny_shtof/img_8602.jpg
+        - shuteyny_shtof/img_8632.jpg
+        - shuteyny_shtof/img_8604.jpg
+        - shuteyny_shtof/img_8609.jpg
+        - shuteyny_shtof/img_8611.jpg
+        - shuteyny_shtof/img_8612.jpg
+        - shuteyny_shtof/img_8616.jpg
+        #- shuteyny_shtof/img_8617.jpg
+        - shuteyny_shtof/img_8623.jpg
+        - shuteyny_shtof/img_8626.jpg
+        - shuteyny_shtof/img_8630.jpg
+        #- shuteyny_shtof/img_8634.jpg
+        - shuteyny_shtof/img_8637.jpg
+        - shuteyny_shtof/img_8640.jpg
+        - shuteyny_shtof/img_8643.jpg
+        - shuteyny_shtof/img_8648.jpg
+        - shuteyny_shtof/img_8649.jpg
+        - shuteyny_shtof/img_8654.jpg
+        - shuteyny_shtof/img_8656.jpg
+        - shuteyny_shtof/img_8662.jpg
+        - shuteyny_shtof/img_8660.jpg
+        - shuteyny_shtof/img_8666.jpg
+        - shuteyny_shtof/img_8668.jpg
+        - shuteyny_shtof/img_8670.jpg
+        - shuteyny_shtof/img_8673.jpg
+        - shuteyny_shtof/img_8675.jpg
+        #- shuteyny_shtof/img_8678.jpg
+        #- shuteyny_shtof/img_8680.jpg
+        #- shuteyny_shtof/img_8681.jpg
+        - shuteyny_shtof/img_8683.jpg
+petukh_kuritsa:
+    title: Петух и курица
+    images:
+        - wip/img_9355.jpg
+        - wip/img_9357.jpg
+        - wip/img_9356.jpg
+        - wip/img_9358.jpg
+koshki:
+    title: Кошки
+    images:
+        #- milk/koshki/img_8517.jpg
+        - milk/koshki/img_8519.jpg
+        - milk/koshki/img_8525.jpg
+        - milk/koshki/img_8529.jpg
+        #- milk/koshki/img_8530.jpg
+        #- milk/koshki/img_8531.jpg
+        #- milk/koshki/img_8533.jpg
+        - milk/koshki/img_8535.jpg
+        - milk/koshki/img_8536.jpg
+        - milk/koshki/img_8545.jpg
+        - milk/koshki/img_8547.jpg
+        - milk/koshki/img_8550.jpg
+        #- milk/koshki/img_8552.jpg
+        #- milk/koshki/img_8554.jpg
+        - milk/koshki/img_8555.jpg
+ovechka_sova_lev:
+    title: Овечка, сова и лев
+    images:
+        - ash/ovechka_sova_lev/img_9153.jpg
+        - ash/ovechka_sova_lev/img_9156.jpg
+        - ash/ovechka_sova_lev/img_9158.jpg
+        - ash/ovechka_sova_lev/img_9097.jpg
+        - ash/ovechka_sova_lev/img_9099.jpg
+        - ash/ovechka_sova_lev/img_9101.jpg
+        - ash/ovechka_sova_lev/img_9105.jpg
+        - ash/ovechka_sova_lev/img_9031.jpg
+        - ash/ovechka_sova_lev/img_9034.jpg
+        - ash/ovechka_sova_lev/img_9036.jpg
+...

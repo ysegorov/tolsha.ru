@@ -1,0 +1,219 @@
+---
+title: Молочный обжиг
+text:
+    part1: Глина, ручное формование на гончарном круге, лощение, молочение, полировка.
+    part2: |
+        Технология изготовления этой посуды старинная, её основа – лощение
+        (шлифовка твердым предметом, например, камушком).//
+        После обжига лощеная посуда подвергается молочению, т.е. на некоторое время
+        помещается в молоко, сушится, снова обжигается и отшлифовывается
+        кусочком меха.//
+        После такой процедуры посуда получает свой неповторимый шоколадный оттенок и блеск.//
+        Еда, готовящаяся в такой посуде, томится, сохраняя при этом все полезные свойства.//
+        Глина остается отчасти пористой, поэтому, при употреблении в обиходе первое время
+        изделие может слегка "потеть", т.к. поры заполняются постепенно.
+        Так случается не всегда, но это возможно.
+    part3: |
+        Не ставить на открытый огонь и электроплиту.//
+        Такая посуда не любит резких перепадов температуры и открытого огня, но зато с
+        удовольствием погреется в духовке. Не ставить в нагретую
+        духовку.//
+        Не применять грубые абразивные средства для мытья. Не мыть в
+        посудомоечной машине.//
+        Достаточно использовать теплую воду с добавлением горчицы. Затем хорошо просушить.//
+        При постоянном использовании рекомендуется периодически
+        прокаливать в духовке при температуре примерно 180 градусов.
+blinnitsa:
+    title: Блинница
+    images:
+        - img_8760.jpg
+        - img_8763.jpg
+        - img_8765.jpg
+butyl:
+    title: Бутыль
+    images:
+        - img_8364.jpg
+        - img_8369.jpg
+chasha_lebed:
+    title: Чаша Лебедь
+    images:
+        - img_8464.jpg
+        - img_8465.jpg
+        - img_8466.jpg
+        - img_8489.jpg
+        - img_8491.jpg
+        - img_8766.jpg
+        - img_8769.jpg
+chashka:
+    title: Чашка
+    images:
+        - img_8715.jpg
+chaynik:
+    title: Чайник
+    images:
+        - img_8417.jpg
+        - img_8419.jpg
+        - img_8421.jpg
+        - img_8422.jpg
+        - img_8423.jpg
+        - img_8425.jpg
+        - img_8686.jpg
+        - img_8688.jpg
+        - img_8690.jpg
+        - img_8691.jpg
+        - img_8694.jpg
+        - img_8698.jpg
+        - img_8700.jpg
+        - img_8702.jpg
+        - img_8704.jpg
+        - img_8707.jpg
+        - img_8724.jpg
+        - img_8727.jpg
+        - img_8729.jpg
+        - img_8731.jpg
+flyaga:
+    title: Фляга
+    images:
+        - img_8454.jpg
+        - img_8456.jpg
+koshki:
+    title: Кошки
+    skip_text_part3: true
+    images:
+        #- img_8517.jpg
+        - img_8519.jpg
+        - img_8525.jpg
+        - img_8529.jpg
+        #- img_8530.jpg
+        #- img_8531.jpg
+        #- img_8533.jpg
+        - img_8535.jpg
+        - img_8536.jpg
+        - img_8545.jpg
+        - img_8547.jpg
+        - img_8550.jpg
+        #- img_8552.jpg
+        #- img_8554.jpg
+        - img_8555.jpg
+kovshik:
+    title: Ковшик
+    images:
+        - img_8497.jpg
+        - img_8502.jpg
+        - img_8503.jpg
+krynka:
+    title: Кринка
+    images:
+        - img_8451.jpg
+kukhlya:
+    title: Кухля
+    images:
+        - img_8396.jpg
+        - img_8398.jpg
+        - img_8402.jpg
+        - img_8405.jpg
+        - img_8407.jpg
+kuvshin:
+    title: Кувшин
+    images:
+        - img_8436.jpg
+        - img_8437.jpg
+        - img_8440.jpg
+        - img_8471.jpg
+        - img_8474.jpg
+        - img_8475.jpg
+        - img_8477.jpg
+        - img_8478.jpg
+        - img_8480.jpg
+        - img_8482.jpg
+        - img_8486.jpg
+        - img_8737.jpg
+maslenka:
+    title: Масленка
+    images:
+        - img_8429.jpg
+        - img_8431.jpg
+        - img_8432.jpg
+        - img_8749.jpg
+        - img_8750.jpg
+        - img_8755.jpg
+        - img_8756.jpg
+podstavka_pod_lozhku:
+    title: Подставка под ложку
+    images:
+        - img_8718.jpg
+        - img_8723.jpg
+rukomoy:
+    title: Рукомой
+    images:
+        - img_8391.jpg
+        - img_8393.jpg
+        - img_8394.jpg
+sakharnitsa:
+    title: Сахарница
+    images:
+        - img_8742.jpg
+        - img_8747.jpg
+# shuteyny_shtof:
+#     title: Шутейные штофы
+#     images:
+#         - img_8600.jpg
+#         - img_8601.jpg
+#         - img_8602.jpg
+#         - img_8604.jpg
+#         - img_8609.jpg
+#         - img_8611.jpg
+#         - img_8612.jpg
+#         - img_8616.jpg
+#         - img_8617.jpg
+#         - img_8623.jpg
+#         - img_8626.jpg
+#         - img_8630.jpg
+#         - img_8632.jpg
+#         - img_8634.jpg
+#         - img_8637.jpg
+#         - img_8640.jpg
+#         - img_8643.jpg
+#         - img_8648.jpg
+#         - img_8649.jpg
+#         - img_8654.jpg
+#         - img_8656.jpg
+#         - img_8660.jpg
+#         - img_8662.jpg
+#         - img_8666.jpg
+#         - img_8668.jpg
+#         - img_8670.jpg
+#         - img_8673.jpg
+#         - img_8675.jpg
+#         - img_8678.jpg
+#         - img_8680.jpg
+#         - img_8681.jpg
+#         - img_8683.jpg
+tarelka:
+    title: Тарелка
+    images:
+        - img_8443.jpg
+        - img_8449.jpg
+        - img_8458.jpg
+        - img_8788.jpg
+        - img_8792.jpg
+        - img_8795.jpg
+        - img_8799.jpg
+        - img_8803.jpg
+        - img_8806.jpg
+        - img_8807.jpg
+        - img_8813.jpg
+        - img_8817.jpg
+        - img_8819.jpg
+        - img_8824.jpg
+        - img_8826.jpg
+vaza:
+    title: Ваза
+    images:
+        - img_8385.jpg
+        - img_8388.jpg
+        - img_8389.jpg
+        - img_8409.jpg
+        - img_8411.jpg
+        - img_8413.jpg
+...
