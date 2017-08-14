@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% set object = config.path([content.code, content.slug]|join('.')) %}
+{% set object = config|attr(content.code)|attr(content.slug) %}
 {% set prefix = content.code + '/' + content.slug + '/' %}
-{% set text = config.path([content.code, 'text']|join('.')) %}
+{% set text = config|attr(content.code)|attr('text') %}
 {% include "content/object.html" %}
 {% endblock %}

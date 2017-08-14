@@ -5,6 +5,6 @@
 {% block content %}
 {% set object = config|attr(content.code)|attr(content.slug) %}
 {% set prefix = '' %}
-{% set text = content['text'] %}
+{% set text = config|attr(content.code)|attr(content.slug)|attr('text') %}
 {% include "content/object.html" %}
 {% endblock %}

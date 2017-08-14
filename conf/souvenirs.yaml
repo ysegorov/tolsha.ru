@@ -2,6 +2,8 @@
 title: Сувениры
 shuteyny_shtof:
     title: Шутейские штофы
+    text:
+      part1: Глина, ручное формование на гончарном круге, лепка, утильный обжиг.
     images:
         #- shuteyny_shtof/img_8600.jpg
         #- shuteyny_shtof/img_8601.jpg
@@ -37,6 +39,8 @@ shuteyny_shtof:
         - shuteyny_shtof/img_8683.jpg
 petukh_kuritsa:
     title: Петух и курица
+    text:
+      part1: Глина, ручное формование на гончарном круге, лепка.
     images:
         - wip/img_9355.jpg
         - wip/img_9357.jpg
@@ -44,6 +48,8 @@ petukh_kuritsa:
         - wip/img_9358.jpg
 koshki:
     title: Кошки
+    text:
+      part1: Глина, ручное формование на гончарном круге, лощение, молочение, полировка.
     images:
         #- milk/koshki/img_8517.jpg
         - milk/koshki/img_8519.jpg
@@ -62,6 +68,8 @@ koshki:
         - milk/koshki/img_8555.jpg
 ovechka_sova_lev:
     title: Овечка, сова и лев
+    text:
+      part1: Глина, ручное формование на гончарном круге, зольный обжиг.
     images:
         - ash/ovechka_sova_lev/img_9153.jpg
         - ash/ovechka_sova_lev/img_9156.jpg
