@@ -8,7 +8,6 @@ about: |
     Наши керамические изделия находятся в музеях г. Скопин Рязанской области и г. Богородск Нижегородской области.
     Мы выполняем работы на заказ для частных лиц, ресторанов и всех желающих.
     Все работы выполнены вручную.
-    Точный повтор работ, изображенных на фотографиях, невозможен.
 contacts: |
     <img src="/img/phone.png" width="24" height="24" class="phone" alt="phone" title="phone">&nbsp;<img src="/img/whatsapp.logo.png" alt="WhatsApp" title="WhatsApp">&nbsp;<img src="/img/viber.logo.png" alt="Viber" title="Viber">&nbsp;<a href="tel:+79853001608">+7 985 300 16 08</a> Игорь, Наталья
     <img src="/img/email.png" width="24" height="24" class="email" alt="email" title="email">&nbsp;<a href="mailto:info@tolsha.ru">info@tolsha.ru</a>
@@ -310,32 +309,24 @@ pages:
       code: souvenirs
       slug: koshki
       template: content/souvenirs.html
-      text:
-        part1: Глина, ручное формование на гончарном круге, лощение, молочение, полировка.
 
     - url: /souvenirs/petukh_kuritsa/
       modified: 2016-11-07T11:20:00+04:00
       code: souvenirs
       slug: petukh_kuritsa
       template: content/souvenirs.html
-      text:
-        part1: Глина, ручное формование на гончарном круге, лепка.
 
     - url: /souvenirs/shuteyny_shtof/
       modified: 2016-11-07T11:20:00+04:00
       code: souvenirs
       slug: shuteyny_shtof
       template: content/souvenirs.html
-      text:
-        part1: Глина, ручное формование на гончарном круге, лепка, утильный обжиг.
 
     - url: /souvenirs/ovechka_sova_lev/
       modified: 2016-11-07T11:20:00+04:00
       code: souvenirs
       slug: ovechka_sova_lev
       template: content/souvenirs.html
-      text:
-        part1: Глина, ручное формование на гончарном круге, зольный обжиг.
 
     - url: /sitemap.xml
       template: sitemap.xml
