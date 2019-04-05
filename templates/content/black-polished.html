@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config|attr(content.code)|attr('title') }} | {{ config.title }}{% endblock %}
+
+{% block content %}
+{% set object = config|attr(content.code) %}
+{% set prefix = content.slug + '/' %}
+{% set text = '' %}
+{% include "content/object.html" %}
+{% endblock %}
+

@@ -26,6 +26,7 @@ milk: '{file}conf/milk.yaml'
 util: '{file}conf/util.yaml'
 souvenirs: '{file}conf/souvenirs.yaml'
 master: '{file}conf/master.yaml'
+black_polished: '{file}conf/black-polished.yaml'
 
 reconstructive:
     title: Восстановительный обжиг
@@ -276,10 +277,17 @@ pages:
       slug: maslenka
       template: content/milk.object.html
 
-    - url: /reconstructive/
-      title: Восcтановительный обжиг
-      modified: 2017-02-13T22:50:00+04:00
-      template: content/reconstructive.html
+    # - url: /reconstructive/
+    #   title: Восcтановительный обжиг
+    #   modified: 2017-02-13T22:50:00+04:00
+    #   template: content/reconstructive.html
+
+    - url: /black-polished/
+      title: Чернолощеная
+      modified: 2019-04-05T18:25:00+04:00
+      template: content/black-polished.html
+      code: black_polished
+      slug: black-polished
 
     - url: /contacts/
       title: Контакты
