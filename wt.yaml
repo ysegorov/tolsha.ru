@@ -16,6 +16,7 @@ contacts: |
 photograph: Александра Крутько <a href="tel:+79031512962)">+7 903 151 29 62</a>
 
 carousel:
+    - ['/img/misc/pietro.jpg', 'События - Workshop with Pietro Elia Maddalena', '/events/pietro-elia-maddalena-workshop/']
     - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
     - ['/img/large/ash/all/img_9311.jpg', 'Зольный обжиг', '/ash/']
     - ['/img/large/milk/all/img_9290.jpg', 'Молочный обжиг', '/milk/']
@@ -336,6 +337,22 @@ pages:
       code: souvenirs
       slug: ovechka_sova_lev
       template: content/souvenirs.html
+
+    - url: /events/
+      modified: 2019-04-12T14:10:00+04:00
+      template: events/events.html
+
+    - url: /events/pietro-elia-maddalena-workshop/
+      modified: 2019-04-12T15:10:00+04:00
+      template: events/pietro-elia-maddalena.html
+
+    - url: /events/pietro-elia-maddalena-workshop/schedule-may-2019/
+      modified: 2019-04-12T17:00:00+04:00
+      template: events/workshop-schedule-may-2019.html
+
+    - url: /events/pietro-elia-maddalena-workshop/schedule-july-2019/
+      modified: 2019-04-12T17:00:00+04:00
+      template: events/workshop-schedule-july-2019.html
 
     - url: /sitemap.xml
       template: sitemap.xml

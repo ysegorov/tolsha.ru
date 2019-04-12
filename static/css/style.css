@@ -252,6 +252,10 @@ body.suppressed .content {
     background-color: rgba(240, 240, 201, .4);
     overflow: hidden;
 }
+.card-wide {
+    flex: 0 0 48%;
+    margin-right: .5%;
+}
 .card:hover {
     background-color: rgba(240, 240, 201, .9);
     text-decoration: none;
@@ -266,6 +270,13 @@ body.suppressed .content {
     box-shadow: inset 0 0 1px 1px #fff;
     filter: grayscale(.5);
 }
+.card-image-contain {
+    background-size: contain;
+    background-position: top center;
+}
+.card-image-large {
+    height: 300px;
+}
 .card:hover .card-image {
     opacity: 1;
     transform: scale(1.1);
@@ -273,14 +284,14 @@ body.suppressed .content {
 }
 .card-caption {
     text-align: center;
-    line-height: 32px;
+    line-height: 1.5;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     color: #eee;
     background-color: rgba(23, 23, 23, .8);
-    display: none;
+    padding: 10px;
 }
 
 .object {
@@ -576,10 +587,10 @@ body.suppressed .content {
 .photographer-info {
     border-top: 1px solid rgba(112, 128, 144, .5);
     padding-top: 12px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
 }
 
 .legacy-site-nav {
@@ -596,4 +607,58 @@ body.suppressed .content {
     /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
     background-image: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,.05));
     flex: 0 0 50%;
+}
+
+.event-info {
+    line-height: 1.75;
+    padding: 0 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+.event-info:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-info-image {
+    float: right;
+    max-width: 200px;
+    margin-left: 2rem;
+}
+.event-info-quote {
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: black;
+    margin-right: 232px;
+    border-left: 4px solid #ccc;
+}
+.event-info-quote p {
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.margin-top-zero {
+    margin-top: 0;
+}
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
+.workshop-schedule {
+    margin: 2rem;
+    border-collapse: collapse;
+}
+.workshop-schedule th,
+.workshop-schedule td {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+.workshop-schedule td {
+    font-style: italic;
+    font-size: 15px;
 }
