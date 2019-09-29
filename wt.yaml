@@ -16,7 +16,6 @@ contacts: |
 photograph: Александра Крутько <a href="tel:+79031512962)">+7 903 151 29 62</a>
 
 carousel:
-    - ['/img/misc/pietro.jpg', 'События - Workshop with Pietro Elia Maddalena', '/events/pietro-elia-maddalena-workshop/']
     - ['/img/large/wip/img_8595.jpg', 'Утильный обжиг', '/util/']
     - ['/img/large/ash/all/img_9311.jpg', 'Зольный обжиг', '/ash/']
     - ['/img/large/milk/all/img_9290.jpg', 'Молочный обжиг', '/milk/']
